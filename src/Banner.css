@@ -1,0 +1,143 @@
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: rgb(255, 255, 255); 
+    }
+}
+
+.profile-image{
+    background-image: url('./Images/Prof_photo3.0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+img{
+    height: 20vh;
+}
+
+.aboutme-image{
+    background-image: url('./Images/aboutmebackground.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.experiences-image{
+    background-image: url('./Images/experiences2-image.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 282vh;
+}
+
+.btn-outline-dark {
+    color: #fff;
+    background-color: #0494c900;
+    border-color: #357dbd00; 
+}
+.btn-outline-dark:hover{
+    color: #fff;
+    background-color: #a5deeb98;
+    border-color: #285e8e00; 
+}
+
+.font{
+    color: #fff;
+    font-family: monospace;
+}
+
+.about-me{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    text-align: center;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ffffff;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.65));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.65))
+  }
+
+  .gradient-custom-two {
+    /* fallback for old browsers */
+    height: 282vh;
+    background: #000000;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.406));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.406))
+  }
+.experiences-content{
+    color:rgb(0, 0, 0);
+}
+
+.experiences-header{
+    color:rgb(29, 12, 143);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.experiences-timeframe{
+    color:rgb(8, 85, 61);
+}
+
+.experiences-location{
+    color:rgb(60, 60, 60);
+    font-weight: bold;
+}
+
+.experiences-title{
+    color:rgb(255, 255, 255);
+}
+
+.contact-image{
+    background-image: url('./Images/pwfooter.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.btn-custom-transparent{
+    color: rgba(255, 255, 255, 0);
+    background-color: #0494c900;
+    border-color: #357dbd00; 
+}
+
+.icon{
+    height: 3rem;
+}
